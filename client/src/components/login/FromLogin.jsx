@@ -56,7 +56,7 @@ function FromLogin() {
       />
       <div className={styles.btns}>
         <button className={styles.btn}>LOGIN</button>
-        <Link to="/forgetpassword">Forget your password</Link>
+        {/* <Link to="/forgetpassword">Forget your password</Link> */}
       </div>
     </form>
   );

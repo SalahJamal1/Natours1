@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import Loader from "../ui/Loader";
 
 function ProtectPage({ children }) {
   const nav = useNavigate("/");

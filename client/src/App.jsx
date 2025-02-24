@@ -37,18 +37,14 @@ const router = createBrowserRouter([
       </ProtectPage>
     ),
   },
-  {
-    path: "/forgetpassword",
-    element: <Forgetpassword />,
-  },
-  {
-    path: "/restpassword/:id",
-    element: <ResetPassword />,
-  },
-  {
-    path: "/order/new",
-    element: <Loader />,
-  },
+  // {
+  //   path: "/forgetpassword",
+  //   element: <Forgetpassword />,
+  // },
+  // {
+  //   path: "/restpassword/:id",
+  //   element: <ResetPassword />,
+  // },
   {
     path: "*",
     element: <Pagenotfound />,
